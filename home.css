@@ -240,15 +240,3 @@ footer {
     margin-top: 10px;
   }
 }
-/* @media screen and (max-width: 1190px) {
-  footer{
-    position: relative;
-    margin-top: 20px;
-  }
-} */
-@font-face {
-  font-family: "cuomotype";
-  src: url("cuomotype.ttf");
-  src: url("cuomotype.ttf") format("ttf"),
-  url("cuomotype.ttf") format("opentype");
-}
