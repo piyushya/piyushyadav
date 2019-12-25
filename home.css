@@ -100,7 +100,7 @@ A.navElem{
   border-radius: 10px;
   box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.1);
   margin-right: 50px;
-  font-family: cursive;
+  font-family: "HCo Gotham", sans-serif;
   font-size: 22px;
   font-weight:normal;
   color: #572991;
@@ -202,7 +202,6 @@ footer {
   .proData{
     font-size: 19px;
     text-align: center;
-    font-family: verdana;
     margin-top: 40px;
     padding: 20px;
     padding-top: 40px;
