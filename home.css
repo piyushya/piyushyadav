@@ -43,6 +43,9 @@ nav{
   .navElem:hover{
      border-bottom: 2px dotted black;
   }
+  .navElem:nth-child(3):hover{
+  color: lightskyblue;
+  }
 }
 .navElem{
   padding: 5px;
@@ -61,7 +64,7 @@ A.navElem{
   color: blue;
 }
 .navElem:nth-child(3):hover{
-  color: lightskyblue;
+  color: lightblue;
 }
 .navElem:nth-child(4):hover{
   color: red;
