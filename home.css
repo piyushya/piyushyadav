@@ -63,9 +63,6 @@ A.navElem{
 .navElem:nth-child(2):hover{
   color: blue;
 }
-.navElem:nth-child(3):hover{
-  color: lightblue;
-}
 .navElem:nth-child(4):hover{
   color: red;
 }
