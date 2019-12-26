@@ -192,6 +192,7 @@ footer {
   }
   .name{
     border-right: 10px solid lightgreen;
+    width: 100%;
   }
   .col{
     width: auto;
