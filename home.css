@@ -79,7 +79,7 @@ A.navElem{
 .name{
   margin-top: 0px;
   color: #572991;
-  font-size: 32px;
+  font-size: 35px;
   font-family: 'Indie Flower', Tahoma;
   font-weight: bold;
   border-left: 10px solid lightgreen;
@@ -191,7 +191,7 @@ footer {
     display: block;
   }
   .name{
-    border-right: 5px solid lightgreen;
+    border-right: 10px solid lightgreen;
   }
   .col{
     width: auto;
