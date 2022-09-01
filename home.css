@@ -12,7 +12,7 @@ body{
   margin: 0px;
   background-color: rgba(0, 0, 0, 0.05)
 }
-a{
+.link {
   text-decoration: none;
   color: blue;
 }
@@ -91,6 +91,10 @@ A.navElem{
   font-weight: bold;
   border-left: 10px solid lightgreen;
 }
+@keyframes pop{
+  from{transform: scale(1);}
+  to{transform: scale(1.05);}
+}
 .proImag{
   animation: pop 1.5s infinite alternate ease-in-out;
   transform-origin: center;
@@ -133,6 +137,7 @@ A.navElem{
 }
 .tCol{
   font-size: 15px;
+  text-decoration: none;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding: 20px;
   width: 100px;
@@ -143,8 +148,17 @@ A.navElem{
   border-radius: 10px;
   transition: all 0.5s;
 }
-A.tCol{
-  color: #572991;
+.tCol1{
+  color: #b67e46;
+}
+.tCol2{
+  color: #efa403;
+}
+.tCol3{
+  color: #1ac687;
+}
+.tCol4{
+  color: #d13e82;
 }
 .tCol:hover{
   border-color: lightskyblue;
