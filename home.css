@@ -55,6 +55,7 @@ nav{
   }
 }
 .navElem{
+  text-decoration: none;
   padding: 5px;
   transition: 0.2s;
 }
@@ -148,7 +149,7 @@ A.navElem{
   border-radius: 10px;
   transition: all 0.5s;
 }
-.tCol1{
+/* .tCol1{
   color: #b67e46;
 }
 .tCol2{
@@ -158,8 +159,8 @@ A.navElem{
   color: #1ac687;
 }
 .tCol4{
-  color: #d13e82;
-}
+  color: #d13e82; 
+}*/
 .tCol:hover{
   border-color: lightskyblue;
 }
