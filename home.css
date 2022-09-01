@@ -92,12 +92,12 @@ A.navElem{
   border-left: 10px solid lightgreen;
 }
 .proImag{
-  -webkit-animation: pop 1.5s infinite alternate ease-in-out;
+  animation: pop 1.5s infinite alternate ease-in-out;
   transform-origin: center;
   border-radius: 45px;
   border: 5px solid white;
 }
-@-webkit-keyframes pop{
+@keyframes pop{
   from{transform: scale(1);}
   to{transform: scale(1.05);}
 }
@@ -120,7 +120,7 @@ A.navElem{
   transform-origin: center;
   width: auto;
   height: auto;
-  -webkit-animation: 0.2s infinite alternate;
+  animation: 0.2s infinite alternate;
 }
 .tool:hover{
   animation-name: pop;
