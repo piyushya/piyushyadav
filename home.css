@@ -38,21 +38,16 @@ nav{
   border-radius: 50%;
   float: right;
 }
-@media screen and (min-width: 1000px) {
-  nav:hover{
-     background-color: rgba(0, 0, 0, 0);
-     box-shadow: 0px 0px 0px white;
-     color : black;
-  }
-  nav:hover a{
-     color: black;
-  }
-  .navElem:hover{
-     border-bottom: 2px dotted black;
-  }
-  .navElem:nth-child(3):hover{
-  color: lightskyblue;
-  }
+nav:hover{
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px white;
+  color : black;
+}
+nav:hover a{
+  color: black;
+}
+.navElem:hover{
+  border-bottom: 2px dotted black;
 }
 .navElem{
   text-decoration: none;
@@ -71,6 +66,9 @@ A.navElem{
 .navElem:nth-child(2):hover{
   color: blue;
 }
+.navElem:nth-child(3):hover{
+  color: skyblue;
+  }
 .navElem:nth-child(4):hover{
   color: red;
 }
